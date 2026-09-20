@@ -1,0 +1,8 @@
+# Development tools: install with the proto executable on PATH (proto use).
+rust = "1.94.0"
+uv = "0.12.17"
+
+[settings]
+auto-install = false
+auto-clean = false
+telemetry = false
