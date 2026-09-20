@@ -1,0 +1,10 @@
+uv = "0.12.17"
+"uv:ruff" = "0.11.13"
+
+[plugins.backends]
+uv = "file://../../target/wasm32-wasip1/release/proto_uv_backend.wasm"
+
+[settings]
+auto-install = false
+auto-clean = false
+telemetry = false

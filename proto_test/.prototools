@@ -1,0 +1,14 @@
+uv = "0.12.17"
+"uv:ruff" = "0.11.13"
+"uv:httpie" = "3.2.4"
+
+[plugins.backends]
+uv = "file://../target/wasm32-wasip1/release/proto_uv_backend.wasm"
+
+[backends.uv]
+python = "3.12"
+
+[settings]
+auto-install = false
+auto-clean = false
+telemetry = false
